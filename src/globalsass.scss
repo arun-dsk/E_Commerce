@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+// mixin function for font families
+
+@mixin font-nunito($weight: 400) {
+    font-family: 'Nunito';
+    font-weight: $weight;
+}
+
+@mixin font-poppins($weight: 400) {
+    font-family: 'poppins';
+    font-weight: $weight;
+}
+
+@mixin font-momosignature($weight: 400) {
+    font-family: 'Momo Signature';
+    font-weight: $weight;
+}
+
+
+// Mixin function for responsive queries
+@mixin respond($breakpoint) {
+    @if $breakpoint ==sm {
+        @media (max-width:576px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint ==md {
+        @media (max-width:800px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint ==lg {
+        @media (max-width:992px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint ==xl {
+        @media (max-width:1200px) {
+            @content;
+        }
+    }
+    @else if $breakpoint ==xxl {
+        @media (max-width:1400px) {
+            @content;
+        }
+    }
+}
+
+
+
+
+@mixin mainHeading($textColor: #ffffffa4) {
+    color: $textColor;
+    text-align: center;
+    @include font-nunito(700);
+    font-size: 85px;
+
+}
+
+@mixin subHeading($textColor: #ffffffa4) {
+    color: $textColor;
+    text-align: center;
+    @include font-nunito(600);
+    text-transform: uppercase;
+}
+
+@mixin Button($bg:orange){
+    @include font-nunito(600);
+    color: white;
+    background-color: $bg;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}

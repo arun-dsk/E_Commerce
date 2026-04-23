@@ -1,0 +1,65 @@
+@use '../../globalsass.scss' as *;
+
+
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .imgbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(122, 122, 207, 0.57);
+        padding: 15px;
+        border-radius: 20px;
+
+        img {
+            height: 300px;
+        }
+
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        @include font-nunito(700);
+
+        span {
+            display: flex;
+            gap: 10px;
+
+            p:nth-child(2) {
+                text-decoration: line-through;
+                font-weight: 400;
+                color: rgba(0, 0, 0, 0.503);
+            }
+        }
+    }
+
+    .btns {
+        display: flex;
+        gap: 1rem;
+
+        button {
+            padding: 8px 15px;
+            font-size: 18px;
+            @include font-nunito;
+            border: none;
+            border-radius: 10px;
+
+            &:nth-child(1) {
+                background-color: rgba(255, 166, 0);
+                color: white;
+            }
+
+            &:nth-child(2) {
+                border: 2px solid rgba(0, 0, 0, 0.665);
+            }
+            &.disabled{
+                cursor: not-allowed;
+                background-color: rgba(255,166,0,0.409);
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+@use '../../globalsass.scss' as *;
+.productinfo {
+    display: flex;
+    padding: 20px 100px;
+    .left {
+        flex: 1;
+        .main-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 400px;
+            }
+        }
+        .secondary-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 100px;
+            }
+        }
+    }
+    .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: center;
+        @include font-nunito;
+        .price {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            p {
+                &:nth-child(1) {
+                    font-size: 25px;
+                    font-weight: 700;
+                }
+
+                &:nth-child(2) {
+                    color: rgba(0, 0, 0, 0.571);
+                    text-decoration: line-through;
+                }
+            }
+        }
+
+        .btn {
+            display: flex;
+            gap: 2rem;
+            button {
+                &:nth-child(1) {
+                    @include Button(aqua);
+                    color: black;
+                }
+
+                &:nth-child(2) {
+                    @include Button
+                }
+            }
+        }
+    }
+}

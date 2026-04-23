@@ -1,0 +1,61 @@
+@use '../../globalsass.scss' as *;
+
+footer {
+    margin: 70px 0 15px;
+    padding: 10px 100px;
+    @include font-nunito;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .top {
+        display: flex;
+        gap: 5rem;
+
+        .one {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            color: rgba(0, 0, 0, 0.65);
+            font-size: 18px;
+
+            img {
+                width: 33%;
+            }
+        }
+
+        .two {
+            flex: 1;
+            font-size: 18px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                ul {
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.75rem;
+                }
+            }
+        }
+
+        .three {
+            flex: 1;
+            .subc{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+            }
+        }
+    }
+
+    .bottom {
+        text-align: center;
+        padding: 15px;
+        border-top: 2px solid rgba(0, 0, 0, 0.562);
+    }
+}
