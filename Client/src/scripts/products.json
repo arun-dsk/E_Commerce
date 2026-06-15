@@ -1,0 +1,322 @@
+[
+  {
+    "id": "p_001",
+    "name": "Apple AirPods Pro 2nd gen",
+    "rating": 4.5,
+    "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit.",
+    "price": 29999,
+    "offerPrice": 26999,
+    "image": [
+      "/images/Products/AppleEarpode1.png",
+      "/images/Products/AppleEarpode2.png",
+      "/images/Products/AppleEarpode3.png",
+      "/images/Products/AppleEarpode4.png"
+    ],
+    "category": "New arrivals",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_002",
+    "name": "Stylish Baseball Cap",
+    "rating": 4.5,
+    "description": "A premium cotton twill baseball cap designed for everyday comfort and protection.",
+    "price": 799,
+    "offerPrice": 499,
+    "image": [
+      "/images/Products/Caps.png",
+      "/images/Products/Caps.png",
+      "/images/Products/Caps.png",
+      "/images/Products/Caps.png"
+    ],
+    "category": "New arrivals",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_003",
+    "name": "Graphic T-Shirt",
+    "rating": 4.5,
+    "description": "Soft cotton graphic t-shirt with trendy modern design.",
+    "price": 999,
+    "offerPrice": 699,
+    "image": [
+      "/images/Products/Tshirt.png",
+      "/images/Products/Tshirt.png",
+      "/images/Products/Tshirt.png",
+      "/images/Products/Tshirt.png"
+    ],
+    "category": "New arrivals",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_004",
+    "name": "Black Hoodie",
+    "rating": 4.5,
+    "description": "Warm and stylish black hoodie crafted with soft fleece fabric.",
+    "price": 1299,
+    "offerPrice": 1199,
+    "image": [
+      "/images/Products/hoodies.png",
+      "/images/Products/hoodies.png",
+      "/images/Products/hoodies.png",
+      "/images/Products/hoodies.png"
+    ],
+    "category": "New arrivals",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_005",
+    "name": "Denim Jacket",
+    "rating": 4.5,
+    "description": "Classic denim jacket engineered for durability and style.",
+    "price": 2499,
+    "offerPrice": 1899,
+    "image": [
+      "/images/Products/denimjacket.png",
+      "/images/Products/denimjacket.png",
+      "/images/Products/denimjacket.png",
+      "/images/Products/denimjacket.png"
+    ],
+    "category": "Best seller",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_006",
+    "name": "Slim Fit Jeans",
+    "rating": 4.5,
+    "description": "Comfortable slim fit jeans with premium denim quality.",
+    "price": 2799,
+    "offerPrice": 2199,
+    "image": [
+      "/images/Products/jeans.png",
+      "/images/Products/jeans.png",
+      "/images/Products/jeans.png",
+      "/images/Products/jeans.png"
+    ],
+    "category": "Best seller",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_007",
+    "name": "Leather Wallet",
+    "rating": 4.5,
+    "description": "Compact genuine leather wallet with premium build quality.",
+    "price": 1499,
+    "offerPrice": 999,
+    "image": [
+      "/images/Products/wallet.png",
+      "/images/Products/wallet.png",
+      "/images/Products/wallet.png",
+      "/images/Products/wallet.png"
+    ],
+    "category": "Best seller",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_008",
+    "name": "Smartwatch Pro",
+    "rating": 4.5,
+    "description": "Advanced smartwatch with fitness tracking and connectivity.",
+    "price": 4999,
+    "offerPrice": 3799,
+    "image": [
+      "/images/Products/DigitalWatch.png",
+      "/images/Products/DigitalWatch.png",
+      "/images/Products/DigitalWatch.png",
+      "/images/Products/DigitalWatch.png"
+    ],
+    "category": "Best seller",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_009",
+    "name": "Printed Linen Shirt",
+    "rating": 4.5,
+    "description": "Lightweight printed linen shirt designed for summer comfort.",
+    "price": 1599,
+    "offerPrice": 1199,
+    "image": [
+      "/images/Products/Linenshirt.png",
+      "/images/Products/Linenshirt.png",
+      "/images/Products/Linenshirt.png",
+      "/images/Products/Linenshirt.png"
+    ],
+    "category": "Summer collections",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_010",
+    "name": "Cotton Shorts",
+    "rating": 4.5,
+    "description": "Comfortable cotton shorts perfect for hot weather.",
+    "price": 1299,
+    "offerPrice": 899,
+    "image": [
+      "/images/Products/shorts.png",
+      "/images/Products/shorts.png",
+      "/images/Products/shorts.png",
+      "/images/Products/shorts.png"
+    ],
+    "category": "Summer collections",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_011",
+    "name": "Flip Flops",
+    "rating": 4.5,
+    "description": "Lightweight flip flops designed for all-day comfort.",
+    "price": 699,
+    "offerPrice": 499,
+    "image": [
+      "/images/Products/flipflops.png",
+      "/images/Products/flipflops.png",
+      "/images/Products/flipflops.png",
+      "/images/Products/flipflops.png"
+    ],
+    "category": "Summer collections",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_012",
+    "name": "Straw Hat",
+    "rating": 4.5,
+    "description": "Stylish woven straw hat for sun protection.",
+    "price": 899,
+    "offerPrice": 649,
+    "image": [
+      "/images/Products/strawhat.png",
+      "/images/Products/strawhat.png",
+      "/images/Products/strawhat.png",
+      "/images/Products/strawhat.png"
+    ],
+    "category": "Summer collections",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_013",
+    "name": "Polarized Sunglasses",
+    "rating": 4.5,
+    "description": "Premium polarized sunglasses with UV protection.",
+    "price": 1299,
+    "offerPrice": 899,
+    "image": [
+      "/images/Products/sunglass.png",
+      "/images/Products/sunglass.png",
+      "/images/Products/sunglass.png",
+      "/images/Products/sunglass.png"
+    ],
+    "category": "Accessories",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_014",
+    "name": "Analog Wrist Watch",
+    "rating": 4.5,
+    "description": "Elegant analog wrist watch with leather strap.",
+    "price": 2999,
+    "offerPrice": 2499,
+    "image": [
+      "/images/Products/analogwatch.png",
+      "/images/Products/analogwatch.png",
+      "/images/Products/analogwatch.png",
+      "/images/Products/analogwatch.png"
+    ],
+    "category": "Accessories",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_015",
+    "name": "Travel Backpack",
+    "rating": 4.5,
+    "description": "Strong and spacious travel backpack with multiple compartments.",
+    "price": 3499,
+    "offerPrice": 2899,
+    "image": [
+      "/images/Products/backpack.png",
+      "/images/Products/backpack.png",
+      "/images/Products/backpack.png",
+      "/images/Products/backpack.png"
+    ],
+    "category": "Accessories",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_016",
+    "name": "Chain Bracelet",
+    "rating": 4.5,
+    "description": "Stylish chain bracelet with premium finishing.",
+    "price": 1199,
+    "offerPrice": 799,
+    "image": [
+      "/images/Products/bracelet.png",
+      "/images/Products/bracelet.png",
+      "/images/Products/bracelet.png",
+      "/images/Products/bracelet.png"
+    ],
+    "category": "Accessories",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_017",
+    "name": "Classic White Sneakers",
+    "rating": 4.5,
+    "description": "Durable white sneakers designed for all-day comfort.",
+    "price": 8999,
+    "offerPrice": 7499,
+    "image": [
+      "/images/Products/sneakers.png",
+      "/images/Products/sneakers.png",
+      "/images/Products/sneakers.png",
+      "/images/Products/sneakers.png"
+    ],
+    "category": "Essentials",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_018",
+    "name": "Basic Crew Neck T-shirt",
+    "rating": 4.5,
+    "description": "Soft cotton t-shirt crafted for everyday comfort.",
+    "price": 799,
+    "offerPrice": 599,
+    "image": [
+      "/images/Products/crewTshirt.png",
+      "/images/Products/crewTshirt.png",
+      "/images/Products/crewTshirt.png",
+      "/images/Products/crewTshirt.png"
+    ],
+    "category": "Essentials",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_019",
+    "name": "Cotton Socks Pack",
+    "rating": 4.5,
+    "description": "Premium cotton socks made for daily comfort.",
+    "price": 499,
+    "offerPrice": 349,
+    "image": [
+      "/images/Products/socks.png",
+      "/images/Products/socks.png",
+      "/images/Products/socks.png",
+      "/images/Products/socks.png"
+    ],
+    "category": "Essentials",
+    "date": 1778830291752
+  },
+  {
+    "id": "p_020",
+    "name": "Winter Sweater",
+    "rating": 4.5,
+    "description": "Cozy winter sweater designed with soft fleece fabric.",
+    "price": 1599,
+    "offerPrice": 1199,
+    "image": [
+      "/images/Products/wintersweater.png",
+      "/images/Products/wintersweater.png",
+      "/images/Products/wintersweater.png",
+      "/images/Products/wintersweater.png"
+    ],
+    "category": "Essentials",
+    "date": 1778830291752
+  }
+]
